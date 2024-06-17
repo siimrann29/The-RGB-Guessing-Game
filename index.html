@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+    <title>Guess RGB</title>
+</head>
+<body>
+<div class="container" id="container">
+  <header>
+    <h1>The </br><span class="rgb" id="rgb"></span> </br>guessing game. </h1>
+  </header>
+  <div class="sub-heading" id="sub-heading">
+<div>
+  <button class="new-color-btn" id="color-btn">NEW COLORS</button>
+</div>
+    <div><button class="easy-btn" id="easy-btn">EASY</button>  &nbsp;  <button class="hard-btn" id="hard-btn">HARD</button></div>
+  </div>
+  <div class="square-parent-container" id="square-parent-container">
+    <div class="easy-container">
+      <span class="square"  ></span>
+      <span class="square"></span>
+      <span class="square" ></span>
+    </div>
+    <div class="hard-container" id="hard-container">
+      <span class="square"></span>
+      <span class="square"></span>
+      <span class="square"></span>
+    </div>
+  </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

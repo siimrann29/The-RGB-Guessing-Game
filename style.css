@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: dimgrey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+h1{
+    background-color: royalblue;
+    color: white;
+  width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sub-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    background-color: white;
+}
+
+.easy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:10px;
+    border-radius: 5px;
+}
+
+.square:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: black;
+}
+
+.new-color-btn,
+.easy-btn,
+.hard-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 3px;
+    margin-bottom: 2px;
+    transition: background-color ease-in 0.2s;
+}
+
+.new-color-btn:hover,
+.easy-btn:hover,
+.hard-btn:hover{
+    background-color:grey;
+}
+
+.hard-container-style{
+display: none;
+}
